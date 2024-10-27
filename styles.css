@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -----------GENERAL STYLES--------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: papayawhip;
+    font-family: "Arima", system-ui;
+    font-weight: 900;
+    font-size: 1.5em;
+    max-width: 100%;
+    max-height: 100vh;
+}
+section{
+    /* background-color: #9393ff; */
+    background: linear-gradient(#ffffff3b,#ffffff3b),url(./img/unseen-studio-s9CC2SKySJM-unsplash.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 380px;
+    margin: 8em auto;
+    border: 5px solid #000000;
+    border-radius: 12px;
+    padding: 2rem;
+}
+h2{
+    text-align: center;
+    margin: 0.5rem;
+    color: #000000;
+    
+}
+.new_score{
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+}
+#save-el, 
+.new{
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1rem 0.2rem;
+    color: #000000;
+}
+.btn{
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: center;
+    gap: 0.5rem;
+}
+button{
+    padding: 0.7rem 2rem;
+    font-size: 0.5em;
+    font-weight: 700;
+    outline: 0;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-b{
+   display: flex;
+   margin-top: 1rem;
+   justify-content: center;
+   
+}
+#save-btn{
+    padding: 0.7rem 6.9rem;
+    background-color: #105916 ;
+    outline: 0;
+    border: 0;
+    font-size: 0.6em;
+    font-weight: 700; 
+}
+#increase-btn{
+    background-color: #171c79;
+    }
+#decrease-btn{
+    background-color: #8b0000;
+}
+/* button:hover{
+border: 2px solid bLACK;
+} */
+#increase-btn:hover{
+     background-color: #0f169b;
+     box-shadow: 3px 0 10px 0 #171c79;
+}
+#decrease-btn:hover{
+     background-color: #b70000;
+     box-shadow: 3px 0 10px 0 #8b0000;
+}
+#save-btn:hover{
+     background-color: #117e1a;
+     /* border: 2px solid #117e1a; */
+     box-shadow: 3px 0 10px 0 #117e1a;
+}
